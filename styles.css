@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+
 }
 
 header {
@@ -11,47 +11,74 @@ header {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 1100px;
   height: 1500px;
-  background-color: grey;
+  background-color: #795548;
+  opacity: 0.85;
 }
 
 .card1 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card2 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card3 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card4 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card5 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card6 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card7 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
 
 .card8 {
-  width: 258px;
-  height: 372px;
+  width: 260px;
+  height: 370px;
+  background-color: white;
+  border-style: groove;
+  padding: 10px;
 }
