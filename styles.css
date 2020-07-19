@@ -4,8 +4,30 @@ body {
 header {
   display: grid;
   background-color: #689f38;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  "nav admin"
+  "nav corp";
   width: 1100px;
-  height: 140px;
+  height: 100%;
+}
+
+.nav-menu {
+  grid-area: nav;
+  /* height: 100px;
+  width: 550px; */
+}
+
+.admin-user {
+  grid-area: admin;
+  height: 70px;
+  width: 550px;
+}
+
+.corp-logo {
+  grid-area: corp;
+  height: 70px;
+  width: 550px;
 }
 
 .card-container {
@@ -20,7 +42,7 @@ header {
 }
 
 .card1 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -28,7 +50,7 @@ header {
 }
 
 .card2 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -36,7 +58,7 @@ header {
 }
 
 .card3 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -44,7 +66,7 @@ header {
 }
 
 .card4 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -52,7 +74,7 @@ header {
 }
 
 .card5 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -60,7 +82,7 @@ header {
 }
 
 .card6 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -68,7 +90,7 @@ header {
 }
 
 .card7 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
@@ -76,7 +98,7 @@ header {
 }
 
 .card8 {
-  width: 260px;
+  width: 250px;
   height: 370px;
   background-color: white;
   border-style: groove;
