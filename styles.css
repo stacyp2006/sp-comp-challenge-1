@@ -2,41 +2,39 @@ body {
 }
 
 header {
-  display: grid;
+  display: flex;
   background-color: #689f38;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-  "nav admin"
-  "nav corp";
-  width: 1100px;
-  height: 100%;
+  /* width: 1100px;
+  height: 140px; */
 }
 
 .nav-menu {
-  grid-area: nav;
-  /* height: 100px;
-  width: 550px; */
+  display: flex;
+  justify-content: space-around;
+  height: 140px;
+  width: 550px;
 }
 
 .admin-user {
-  grid-area: admin;
+  display: flex;
+  justify-content: flex-end;
   height: 70px;
   width: 550px;
 }
 
 .corp-logo {
-  grid-area: corp;
+  display: flex;
+  justify-content: flex-end;
   height: 70px;
   width: 550px;
 }
 
 .card-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 1100px;
-  height: 1500px;
+  /* width: 1100px;
+  height: 1500px; */
   background-color: #795548;
   opacity: 0.85;
 }
